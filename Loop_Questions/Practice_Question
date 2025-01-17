@@ -1,0 +1,32 @@
+              //LOOPS ASSIGNMENT QUESTIONS
+#include<iostream>
+using namespace std;
+int main(){
+            //program for printing prime no
+    //  int n=100;  
+    //  for(int i=2;i<=n;i++){
+    //     int temp=i;
+    //     bool isprime=true;{
+    //         for(int j=2;j*j<=i;j++){
+    //             if(temp%j==0){
+    //                 isprime=false;
+    //             }
+    //         }
+    //     }
+    //     if(isprime){
+    //         cout<<temp<<" ";
+    //     }
+    //  }
+
+                    //2
+           //program for the multiplication table
+          int no;
+          cout<<" enter the no";
+          cin>>no;
+
+          int i;
+          for(i=1;i<=5;i++){
+            cout<<no<<" * "<<i<<" = "<<no*i<<endl;
+          }
+    return 0;
+}
