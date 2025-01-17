@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-
     int arr[5]={8,9,4,1,10};
     int n=sizeof(arr)/sizeof(int);
     //for max
